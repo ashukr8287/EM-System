@@ -1,0 +1,45 @@
+.headerouter{
+    width: 100%;
+    padding: 35px 50px;
+    /* background-color: #1C1C1C; */
+    .headerinner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        .username{
+            p{
+                font-size: 18px;
+            }
+            span{
+                font-size: 25px;
+                margin-left: 20px;
+            }
+        }
+        button{
+            background-color:#BE4E38;
+            border: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            color: white;
+            border: 2px solid #BE4E38;
+            &:hover{
+                background-color: transparent;
+
+
+            }
+
+        }
+    }
+}
+@media  screen and (max-width:600px) {
+    .headerouter{
+        width: 100%;
+        padding: 30px 20px;
+        
+    }
+
+    
+}

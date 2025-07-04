@@ -1,0 +1,137 @@
+.CreateTaskouter{
+    width: 95%;
+    margin: 0px auto;
+    padding: 30px 80px;
+    border-radius: 5px;
+    background-color:#161716;
+    overflow: h;
+    .CreateTaskinner{
+       
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .innerleft{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                input {
+                    font-size: 17px;
+                    width: 100%;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    border: 1px solid white;
+                    background-color: transparent;
+                    color: white;
+                    margin: 5px 10px 0px 0px;
+            
+                    &:focus {
+                      border-color:white;
+                      outline: none;
+                      background-color: transparent;
+                    }
+                }
+            }
+            .innerright{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                textarea {
+                    font-size: 17px;
+                    min-width: 100%;
+                    min-height: 200px;
+                    border-radius: 5px;
+                    padding: 11px 20px;
+                    border: 1px solid white;
+                    background-color: transparent;
+                    color: white;
+                    resize: none;
+                    margin: 5px 10px 0px 0px;
+            
+                   
+                }
+                button {
+                    border-radius: 5px;
+                    padding: 7px 10px;
+                    background-color: #3a986c;
+                    border: 3px solid #3a986c;
+                    font-size: 18px;
+                    color: white;
+            
+                    &:hover {
+                        color: #3a986c;
+                      background-color: transparent;
+                    }
+                  }
+
+                
+            }
+        }
+    }
+ }
+ @media screen and (max-width:900px) {
+    .CreateTaskouter{
+        width: 80%;
+        padding: 30px 50px;
+        .CreateTaskinner{
+            form{
+                flex-wrap: wrap;
+                justify-content: center;
+                .innerleft{
+                    width: 90%;
+
+                }
+                .innerright{
+                    width: 90%;
+                    margin-top: 15px;
+
+                }
+            }
+
+        }
+
+
+    }
+
+    
+}
+@media screen and (max-width:600px) {
+    .CreateTaskouter{
+        width: 100%;
+        background-color:#161716;
+    
+        .CreateTaskinner{
+            form{
+                flex-wrap: wrap;
+                justify-content: center;
+                .innerleft{
+                    width: 90%;
+
+                }
+                .innerright{
+                    width: 90%;
+                    margin-top: 15px;
+
+                }
+            }
+
+        }
+
+
+    }
+
+    
+}
+@media screen and (max-width:400px) {
+    .CreateTaskouter{
+        width: 100%;
+        padding: 30px 20px;
+        background-color:#161716;
+
+    }
+
+    
+} 
